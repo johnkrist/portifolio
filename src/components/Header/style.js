@@ -6,6 +6,9 @@ export const HeaderStyle = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
 
   div {
     width: 100%;

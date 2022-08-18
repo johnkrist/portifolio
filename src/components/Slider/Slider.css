@@ -1,5 +1,6 @@
 .swiper{
     padding: 42px;
+    cursor: grab;
 }
 .swiper-slide{
     display: flex;
@@ -12,7 +13,9 @@
 
 .swiper-button-prev{
     color: purple;
+    cursor:grab;
 }
 .swiper-button-next{
     color: purple;
+    cursor: grab;
 }

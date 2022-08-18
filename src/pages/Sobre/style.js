@@ -11,6 +11,30 @@ export const SobreStyle = styled.div`
     float: left;
     border: 0.5px solid purple;
   }
+  @media (max-width: 600px)
+{
+  .minhaImg
+   {
+    width: 250px;
+    float: none;
+   }
+   .mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+   
+   }
+   .mobile p{
+    margin: 0;
+    line-height: 20px;
+   }
+   .mobile .title{
+    margin: 0;
+   }
+
+}
 
   .title{
     margin-left: 50%;

@@ -9,8 +9,8 @@ import { CardStyled } from "./style.js";
 
 export function Slider() {
   const settings = {
-    spaceBetween: 20,
-    slidesPerView: 3,
+    spaceBetween: 50,
+    slidesPerView: 1,
     navigation: {
       clickable: true,
     },

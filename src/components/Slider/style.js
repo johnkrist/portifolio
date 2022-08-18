@@ -9,10 +9,11 @@ export const CardStyled = styled.div`
   width: 350px;
   height: 400px;
   position: relative;
+  cursor: grab;
 
   .content {
     text-decoration: none;
-
+   
     top: 50%;
   }
 

@@ -25,6 +25,8 @@ function Sobre() {
       <BigStars/>
       <SobreStyle>
         <Header />
+        <div className="mobile">
+
         <img className="minhaImg" src={minhafoto} alt="johnathan foto" />
         <h2 className="title">Sobre min:</h2>
         <p>
@@ -38,6 +40,7 @@ function Sobre() {
           e eu adoro isso. Meu objetivo é me tornar lider técnico e participar
           de um projeto que traga grande impacto positivo na vida das pessoas.{" "}
         </p>
+        </div>
         <SectionStacks>
           <div>
             <img src={html} alt="html" />

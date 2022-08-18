@@ -15,8 +15,10 @@ export function Inicio() {
         <Stars />
         <BigStars />
         <Header />
+        
+
         <div className="container">
-        <h1 className="estatico">Eu sou:</h1>
+          <h1 className="estatico">Eu sou:</h1>
         <ul className="dinamico">
             
             <li><span>Comunicativo</span></li>
@@ -26,8 +28,9 @@ export function Inicio() {
            
             
         </ul>
-        </div>
         <Astronauta src={astrona} />
+        </div>
+        
         <Lua />
       </InicioStyle>
     </motion.div>

@@ -5,9 +5,19 @@ export const ContatoStyle = styled.div`
   height: 100%;
   background: linear-gradient(0, #120c56, #000000);
 
+  @media (max-width: 600px)
+{
+  .contatoTitle
+   {
+    font-size: 18px;
+       padding: 20px;
+       
+   }
+}
+
   .contatoTitle {
     color: white;
-    margin-left: 40%;
+   
     font-weight: 100;
   }
 
@@ -31,18 +41,18 @@ export const ContatoStyle = styled.div`
     font-weight: 100;
   }
   input {
-    width: 500px;
+    width: 300px;
     height: 30px;
     font-size: 18px;
   }
 
   textarea {
-    width: 500px;
+    width: 300px;
     height: 100px;
   }
 
   button {
-    width: 506px;
+    width: 306px;
     height: 40px;
     background-color: blueviolet;
     border: none;

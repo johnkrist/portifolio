@@ -16,8 +16,8 @@ function Contato() {
         <Stars />
         <BigStars />
         <Header />
-        <h2 className="contatoTitle">Me envie uma mensagem:</h2>
         <form action="https://api.staticforms.xyz/submit" method="post">
+        <h2 className="contatoTitle">Entre em contato comigo:</h2>
           <input
             type="hidden"
             name="accessKey"
@@ -26,7 +26,7 @@ function Contato() {
           <input
             type="hidden"
             name="redirectTo"
-            value="https://www.google.com"
+            value="https://portifolio-eosin-nine.vercel.app"
           ></input>
           <div className="container">
             <label htmlFor="">Nome</label>

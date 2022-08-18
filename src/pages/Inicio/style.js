@@ -1,16 +1,20 @@
 import styled from "styled-components";
 
 export const InicioStyle = styled.div`
-  width: 100%;
-  height: 100%;
+
   background: linear-gradient(0, #120c56, #000000);
  
- 
+
   .container {
 
 
-    display: inline-flex;
+    display: flex;
+    
+    align-items: center;
     margin-left: 5%;
+    margin-bottom: 20%;
+    flex-wrap: wrap;
+    
   
   }
   .container .estatico {
@@ -118,7 +122,8 @@ export const BigStars = styled.div`
 export const Astronauta = styled.img`
   width: 200px;
   height: 200px;
-  margin: auto 60%;
+ margin: auto;
+ 
   animation: astroFly 10s linear infinite;
   border: 0.5px solid purple;
   cursor: pointer;
@@ -147,15 +152,16 @@ export const Lua = styled.div`
   margin: 0 auto;
   box-shadow: 5px 5px 70px 10px gray;
   cursor: pointer;
-  animation: luaFly 20s linear infinite ;
-  animation-play-state: paused;
+  animation: luaFly 30s linear alternate-reverse ;
+  
   &:hover{
-    animation-play-state: running;
+    animation-play-state: paused;
   }
 
   @keyframes luaFly {
     100%{
-      transform: translateY(-500px);
+      transform: translateY(-300px);
+      animation-play-state: paused;
     }
     
   }
