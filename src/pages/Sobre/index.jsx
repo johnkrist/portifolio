@@ -16,30 +16,25 @@ import { BigStars, Stars } from "../Inicio/style";
 function Sobre() {
   return (
     <motion.div
-    initial={{ opacity: 0.3 }}
-    animate={{ opacity: 1 }}
-    exit={{ opacity: 0.5 }}
-    transition={{ duration: 0.9 }}
+      initial={{ opacity: 0.3 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0.5 }}
+      transition={{ duration: 0.9 }}
     >
-      <Stars/>
-      <BigStars/>
+      <Stars />
+      <BigStars />
       <SobreStyle>
         <Header />
         <div className="mobile">
 
-        <img className="minhaImg" src={minhafoto} alt="johnathan foto" />
-        <h2 className="title">Sobre min:</h2>
-        <p>
-          Meu nome é Johnathan, tenho 25 anos, pai de dois filhos. Sou
-          Desenvolvedor front end (React/Node). Desde pequeno sempre fui
-          encantato por computadores. Conheci programação em 2016 pelo canal{" "}
-          <i>curso em video</i>, e desde la venho estudando. Gosto da área
-          porque nela sempre é preciso estar estudando, buscando conhecimentos
-          para resolver um novo desafio. Programação não é sobre código. É sobre
-          solucionar problemas usando códigos. Me sinto desafiado todos os dias
-          e eu adoro isso. Meu objetivo é me tornar lider técnico e participar
-          de um projeto que traga grande impacto positivo na vida das pessoas.{" "}
-        </p>
+          <img className="minhaImg" src={minhafoto} alt="johnathan foto" />
+          <h2 className="title">Sobre min:</h2>
+          <p>
+            Sou Johnathan, um entusiasta do desenvolvimento de software. Minha paixão por tecnologia me levou a me especializar em (React/Node). Sou um defensor do desenvolvimento ágil e da melhoria contínua, sempre buscando as melhores praticas.
+
+            Acredito que a colaboração e a criatividade são fundamentais para o sucesso de qualquer projeto, e estou sempre em busca de aprender e crescer. Meu objetivo é me tornar lider técnico e participar
+            de um projeto que traga grande impacto positivo na vida das pessoas. Vamos conectar?{" "}
+          </p>
         </div>
         <SectionStacks>
           <div>

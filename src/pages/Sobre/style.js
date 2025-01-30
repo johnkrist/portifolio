@@ -6,10 +6,11 @@ export const SobreStyle = styled.div`
   background: linear-gradient(0, #120c56, #000000);
 
  .minhaImg{
-    width: 500px;
-    margin-left: 4%;
+    width: 300px;
+    margin-left: 10%;
     float: left;
-    border: 0.5px solid purple;
+    border: 0.2px solid purple;
+    border-radius: 25px;
   }
   @media (max-width: 600px)
 {
