@@ -18,16 +18,20 @@ export const ContatoStyle = styled.div`
   .contatoTitle {
     color: white;
    
-    font-weight: 100;
+    font-weight: 20;
+    font-size: 24px;
+    p {
+      color: aquamarine;
+    }
   }
 
   form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border: 0.5px solid purple;
-    gap: 35px;
-    border-radius: 20%;
+  gap: 35px;
+  
+ 
+    margin-left: 95px;
     
   }
 
@@ -64,6 +68,10 @@ export const ContatoStyle = styled.div`
       background-color: purple;
       color: white;
       box-shadow: 0 0 50px purple;
+
     }
+
+    
   }
+ 
 `;

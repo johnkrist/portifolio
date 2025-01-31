@@ -17,7 +17,7 @@ function Contato() {
         <BigStars />
         <Header />
         <form action="https://api.staticforms.xyz/submit" method="post">
-        <h2 className="contatoTitle">Entre em contato comigo:</h2>
+        <h2 className="contatoTitle">Fale comigo pelo whatsaap:<p>(62 9 85517158)</p> ou via E-mail:</h2>
           <input
             type="hidden"
             name="accessKey"

@@ -7,9 +7,8 @@ export const SobreStyle = styled.div`
 
  .minhaImg{
     width: 300px;
-    margin-left: 10%;
+    margin-left: 95px;
     float: left;
-    border: 0.2px solid purple;
     border-radius: 25px;
   }
   @media (max-width: 600px)
@@ -43,7 +42,7 @@ export const SobreStyle = styled.div`
     font-weight: 100;
   }
   p{
-    margin: 0 5% 10% 50% ;
+    margin: 0 5% 10% 30% ;
     color: white;
     font-weight: 100;
     line-height: 30px;
